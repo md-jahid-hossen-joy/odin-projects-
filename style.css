@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color:aquamarine;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  text-align: center;
+}
+div {
+  background-color: orange;
+  width:500px;
+  padding: 10px;
+  background: linear-gradient(to top left,orange,lightblue,blue);
+}
+input  {
+  padding: 5px;
+  margin: 0 auto 10px auto;
+  display: block;
+  border-radius:10px;
+  border:1px solid black;
+  
+}
+input[type="reset"] {
+  color:red;
+  background-color:silver;
+  padding: 5px 20px;
+  
+}
+input[type="submit"]{
+  background-color:aquamarine;
+}
